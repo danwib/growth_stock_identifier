@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.env
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+*.parquet
+*.feather
+*.csv
+*.pkl
+.DS_Store
+Thumbs.db

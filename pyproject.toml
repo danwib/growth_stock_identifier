@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "growth-stock-identifier"
+version = "0.1.1"
+description = "Starter repo for growth stock identification with a working market data layer."
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
